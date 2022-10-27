@@ -1,0 +1,67 @@
+@media screen {
+    max-width: 375px;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .container {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+  }
+.flex-container{
+    width: 269px;
+    padding: 15px;
+    min-height: 430px;
+}
+h2{
+    color: hsl(0, 0%, 95%);
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+    margin-left: 20px;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Lexend Deca;
+    font-weight: 400;
+    margin-left: 20px;
+}
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+    Font-size: 15px;
+}
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    Font-size: 15px;
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+    Font-size: 15px;
+}
+button{
+    padding: 10px 25px;
+    border-radius: 20px;
+    background-color:hsl(0, 0%, 95%) ;
+    font-size: 17px;
+    margin-top: 55px;
+}
+.btn-sedans:hover{
+    background-color: hsl(31, 77%, 52%);
+  
+  }
+  .btn-suv:hover{
+    background-color: hsl(184, 100%, 22%);
+  
+  }
+  .btn-luxury:hover{
+    background-color: hsl(179, 100%, 13%);
+  }
